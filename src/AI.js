@@ -38,7 +38,7 @@ const AI = () => {
             </Flex>
 
             <Flex direction={'column'} alignItems = {'left'} justifyContent = {'center'} width = {'60vw'} padding = {'2vw'}>
-                <Text fontSize={'2.5vw'} fontStyle = {'italic'}>Contacts Me</Text>
+                <Text fontSize={'2.5vw'} fontStyle = {'italic'}>Contact Me</Text>
                 <Text fontSize={'1.15vw'} color = {'gray'} marginBottom = {'1vh'}>Have a question about my work? Want to work together? Don't hesitate to reach out!</Text>
                 <Text fontSize={'1.15vw'} color = {'gray'}>Email me at <Link target={"_blank"} textDecoration={'underline'} isExternal href = {"https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvkXKlJphckHwkJfpkqjjpCLTBhlDhxwKnkSPBspPfCmLNmngfBqVbjdgcgwQFJLGppMpg"}>ben.sloutsky@gmail.com</Link> or message me on twitter <Link target={"_blank"} textDecoration={'underline'} isExternal href = {"https://twitter.com/BenSloutsky"}>@BenjaminSloutsky</Link></Text>
             </Flex>
