@@ -20,7 +20,7 @@ const MainPage = () => {
                 <Link fontSize={'1.5vw'} fontWeight = {500} href = {"https://benjaminsloutsky.substack.com/"}>Newsletter</Link>
             </Flex>
             <Flex marginTop={'7vh'} direction={'column'} width = {'70vw'} padding = {'4vw'}>
-                <Image src = {require('./assets/ben.jpeg')} boxShadow = {'0px 0px 10px 3px #ababab'} alt = {"Benjamin Sloutsky"} width = {'15vw'} height = {'15vw'} borderRadius = {'50%'}/>
+                <Image src = {require('./assets/ben.png')} boxShadow = {'0px 0px 10px 3px #ababab'} alt = {"Benjamin Sloutsky"} width = {'15vw'} height = {'15vw'} borderRadius = {'50%'}/>
                 <Flex marginLeft={'2vw'} gap = {'1vw'} marginTop={'2vw'} direction={'row'} alignItems = {'center'}>
                     <Link width={'2vw'} href = "https://www.linkedin.com/in/benjamin-sloutsky-9b9b09235/" target={"_blank"}><Image src={require('./assets/linkedin.png')} alt = {"Benjamin Sloutsky"} /></Link>
                     <Link width={'2vw'} href = "https://www.instagram.com/ben.sloutsky/" target={"_blank"}><Image src={require('./assets/instagram.png')} alt = {"Benjamin Sloutsky"} /></Link>
