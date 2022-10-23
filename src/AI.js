@@ -31,6 +31,7 @@ const AI = () => {
                     {CardFormat(require('./assets/mit.png'), 'MIT Media Lab', 'Learned and experimented with AI projects during this course!', 'https://github.com/bslou/FutureMakers2022')}
                     {CardFormat(require('./assets/yt.png'), 'Surestart project', 'We created and presented our AI model that we created in the SureStart organization!', 'https://youtu.be/6en4fObHhbY')}
                     {CardFormat(require('./assets/cert.jpg'), 'FutureMakers Cerficiate', 'Earned Deep Learning FutureMakers certificate for completing course!', 'https://glazey.netlify.app')}
+                    {CardFormat(require('./assets/cal.jpg'), 'CalHacks Project', 'Developed both of the AI models for the Cal Hacks Project using neural net and Sequential model!', 'https://github.com/bslou/cal_hacks')}
                 </Flex>
                 <Flex direction={'row'} gap = {'1vw'} alignItems = {'center'} marginTop = {'4vh'}>
                     {CardFormat(require('./assets/kaggle.jpeg'), 'Kaggle Certificate', 'Earned Intro to Deep Learning Kaggle certificate for completing course!', 'https://kaggle.com')}
